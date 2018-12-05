@@ -1,0 +1,14 @@
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\bin\Debug\KSS.DataLayer.dll.config
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\bin\Debug\KSS.DataLayer.dll
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\bin\Debug\KSS.DataLayer.pdb
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\obj\Debug\KSS.DataLayer.csprojAssemblyReference.cache
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\obj\Debug\KSS.DataLayer.Migrations.InitialCreate.resources
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\obj\Debug\KSS.DataLayer.csproj.GenerateResource.cache
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\obj\Debug\KSS.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\obj\Debug\KSS.DataLayer.csproj.CopyComplete
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\obj\Debug\KSS.DataLayer.dll
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\KSS.DataLayer\obj\Debug\KSS.DataLayer.pdb

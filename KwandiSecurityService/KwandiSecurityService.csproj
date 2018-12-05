@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{241F6E19-B6FA-422D-9D1F-B7104473B67F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KwandiSecurityService</RootNamespace>
+    <AssemblyName>KwandiSecurityService</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.1.4.1\lib\net461\FastMember.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.5.1\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients.Designer.cs">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmplyeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmplyeesForm.Designer.cs">
+      <DependentUpon>EmplyeesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KwandiSecurityServiceClientsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KwandiSecurityServiceClientsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KwandiSecurityServiceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KwandiSecurityServiceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KwandiSecurityServiceDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KwandiSecurityServiceDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KwandiSecurityServiceDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KwandiSecurityServiceDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KwandiSecurityServiceDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KwandiSecurityServiceDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KwandiSecurityServiceDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KwandiSecurityServiceDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LandingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LandingForm.Designer.cs">
+      <DependentUpon>LandingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewClientForm.Designer.cs">
+      <DependentUpon>NewClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewEmployeeForm.Designer.cs">
+      <DependentUpon>NewEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmplyeesForm.resx">
+      <DependentUpon>EmplyeesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandingForm.resx">
+      <DependentUpon>LandingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewClientForm.resx">
+      <DependentUpon>NewClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewEmployeeForm.resx">
+      <DependentUpon>NewEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="KwandiSecurityServiceClientsDataSet.xsc">
+      <DependentUpon>KwandiSecurityServiceClientsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceClientsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KwandiSecurityServiceClientsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KwandiSecurityServiceClientsDataSet.xss">
+      <DependentUpon>KwandiSecurityServiceClientsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet.xsc">
+      <DependentUpon>KwandiSecurityServiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KwandiSecurityServiceDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet.xss">
+      <DependentUpon>KwandiSecurityServiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet1.xsc">
+      <DependentUpon>KwandiSecurityServiceDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KwandiSecurityServiceDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet1.xss">
+      <DependentUpon>KwandiSecurityServiceDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet2.xsc">
+      <DependentUpon>KwandiSecurityServiceDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KwandiSecurityServiceDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet2.xss">
+      <DependentUpon>KwandiSecurityServiceDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet3.xsc">
+      <DependentUpon>KwandiSecurityServiceDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KwandiSecurityServiceDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet3.xss">
+      <DependentUpon>KwandiSecurityServiceDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet4.xsc">
+      <DependentUpon>KwandiSecurityServiceDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KwandiSecurityServiceDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KwandiSecurityServiceDataSet4.xss">
+      <DependentUpon>KwandiSecurityServiceDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\KSS.DataLayer.Repository.UserRepository.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseControl\BaseControl.csproj">
+      <Project>{FB4CA79A-31CC-4B39-9FF4-D8CA9D5A17B3}</Project>
+      <Name>BaseControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImageControls\ImageControls.csproj">
+      <Project>{FAC03B06-2659-4B77-B863-6766D749F4C4}</Project>
+      <Name>ImageControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KSS.DataLayer\KSS.DataLayer.csproj">
+      <Project>{10E35706-4C76-4442-8145-944E3CA37DED}</Project>
+      <Name>KSS.DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44025491_240813086615336_7893156300903677952_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1537810341767.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

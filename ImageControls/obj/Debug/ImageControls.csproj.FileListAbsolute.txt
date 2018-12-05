@@ -1,0 +1,9 @@
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\ImageControls\bin\Debug\ImageControls.dll
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\ImageControls\bin\Debug\ImageControls.pdb
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\ImageControls\obj\Debug\ImageControls.csprojAssemblyReference.cache
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\ImageControls\obj\Debug\ImageControls.Properties.Resources.resources
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\ImageControls\obj\Debug\ImageControls.ucImageControl.resources
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\ImageControls\obj\Debug\ImageControls.csproj.GenerateResource.cache
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\ImageControls\obj\Debug\ImageControls.csproj.CoreCompileInputs.cache
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\ImageControls\obj\Debug\ImageControls.dll
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\ImageControls\obj\Debug\ImageControls.pdb

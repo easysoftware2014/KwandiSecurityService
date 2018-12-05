@@ -1,0 +1,8 @@
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\BaseControl\bin\Debug\BaseControl.dll
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\BaseControl\bin\Debug\BaseControl.pdb
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\BaseControl\obj\Debug\BaseControl.csprojAssemblyReference.cache
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\BaseControl\obj\Debug\KwandiSecurityService.ucBaseControl.resources
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\BaseControl\obj\Debug\BaseControl.csproj.GenerateResource.cache
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\BaseControl\obj\Debug\BaseControl.csproj.CoreCompileInputs.cache
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\BaseControl\obj\Debug\BaseControl.dll
+C:\Users\E566035\Documents\Sawulisi\KwandiSecurityService\BaseControl\obj\Debug\BaseControl.pdb
